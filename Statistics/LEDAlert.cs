@@ -6,6 +6,11 @@ namespace Statistics
 {
     public class LEDAlert:IAlerter
     {
-        public bool ledGlows { get; set; } = true;
+        public bool ledGlows { get; set; }
+
+        public void Alert(bool message)
+        {
+            ledGlows = message;
+        }
     }
 }

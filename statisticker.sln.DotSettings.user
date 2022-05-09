@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4edd28ba_002D92e8_002D45b6_002Da560_002Dc03b4c78f722/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="RaisesAlertsIfMaxIsMoreThanThreshold" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::3B2D0A21-DB02-4111-B6E3-076D6256BF42::.NETCoreApp,Version=v3.0::Statistics.Test.StatsUnitTest.RaisesAlertsIfMaxIsMoreThanThreshold&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Statistics
@@ -18,7 +19,12 @@ namespace Statistics
 
         public void checkAndAlert(IList<double> list)
         {
-
+            var max= list.Max<double>();
+            if (max > _maxThrasold)
+            {
+                _alerter[0].Alert(true);
+                _alerter[1].Alert(true);
+            }
         }
     }
 }
